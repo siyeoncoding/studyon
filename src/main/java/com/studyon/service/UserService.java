@@ -13,6 +13,7 @@ public class UserService {
         this.userRepository = userRepository;
     }
 
+    //에러해결
     public String registerUser() {
         return userRepository.save();
     }
