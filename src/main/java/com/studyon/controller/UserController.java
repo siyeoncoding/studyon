@@ -17,6 +17,7 @@ public class UserController {
         this.userService = userService;
     }
 
+    //tesxt
     // POST /users/register
     @PostMapping("/register")
     public User registerUser(@RequestParam String name, @RequestParam String email) {
