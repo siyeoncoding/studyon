@@ -18,7 +18,7 @@ public class UserController {
     }
 
 
-    // POST /users/register
+    // POST /users/register 설계
     @PostMapping("/register")
     public User registerUser(@RequestParam String name, @RequestParam String email) {
         return userService.registerUser(name, email);
