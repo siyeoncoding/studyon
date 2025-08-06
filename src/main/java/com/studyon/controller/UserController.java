@@ -12,6 +12,7 @@ public class UserController {
 
     private final UserService userService;
 
+    //자동
     @Autowired
     public UserController(UserService userService) {
         this.userService = userService;
