@@ -22,7 +22,7 @@ public class eee {
 
 
     // POST /users/registe
-    @PostMapping("/register")
+    @PostMapping("/register/spending")
     public User registerUser(@RequestParam String name, @RequestParam String email) {
         return userService.registerUser(name, email);
     }
